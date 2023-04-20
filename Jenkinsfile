@@ -41,7 +41,7 @@ pipeline {
             echo "sendmail -s mvn build failed receipients@my.com"
         }
         success {
-            echo "The job is successful"
+            echo "The job was successful"
         }
     }
 }
